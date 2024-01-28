@@ -26,8 +26,10 @@ export interface PixelEventProperties {
    * If the IDs being passed in `content_ids`or `contents` parameter are IDs of products, then the value should be '**product**'.
    * Either '**product**' or '**product_group**' base on the `content_ids` or `contents` being passed.
    * If product group IDs are being passed, then the value should be '**product_group**'.
+   * 
+   * If the ID's being passed into `content_ids` are flight ID's from your commerce catalog, then the value should be **flight**' 
    */
-  content_type?: 'product' | 'product_group';
+  content_type?: 'product' | 'product_group' | 'flight';
 
   // tslint:disable-next-line: max-line-length
   /** An array of JSON objects that contains the quantity and the International Article Number (EAN) when applicable, or other product or content identifier(s).

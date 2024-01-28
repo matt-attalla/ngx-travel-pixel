@@ -1,5 +1,5 @@
 <p align="center">
-An Angular library to simplify Facebook Pixel tracking with eventIDs to deduplicate events.
+  An Angular library to track Ecommerce and Travel Facebook Pixel Events. It also includes the `eventId` property to deduplicate events on the Facebook Events Manager.
 </p>
 
 <p align="center">
@@ -86,6 +86,10 @@ this.pixel.trackCustom('MyCustomEvent', {
   platform: 'limewire'
 })
 ```
+### Flight Events
+Tracking Flight Events are the same way as tracking any of the other standard events. In fact, Facebook recommends sending the `Search`, `ViewContent`, `InitateCheckout`, and `Purchase` events with just fields specific to the following events.
+
+More information regarding the parameters for specific flight events can be found [here](https://www.facebook.com/business/help/2522836671061789)
 
 ## 5. Handling Duplicate Pixel and Conversions API Events
 
