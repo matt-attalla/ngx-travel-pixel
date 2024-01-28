@@ -1,0 +1,28 @@
+{
+  "name": "@matt-attalla/ngx-travel-pixel",
+  "description": "An Angular library to track Ecommerce and Travel Facebook Pixel Events.",
+  "author": {
+    "name": "Matt Attalla",
+    "email": "matt.attalla23@gmail.com"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matt-attalla/ngx-travel-pixel"
+  },
+  "keywords": [
+    "angular",
+    "facebook pixel",
+    "analytics",
+    "tracking",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "@angular/common": ">=11.0.1",
+    "@angular/core": ">=11.0.1"
+  },
+  "dependencies": {
+    "tslib": ">=2.0.0"
+  }
+}
